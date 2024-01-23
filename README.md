@@ -45,7 +45,7 @@ If you have any questions, please contact <ContactAtCendas>
 
 ### Part 1
 - [ ] Model + training & eval script on NYU Depth V2 - arch as tiny as possible (as long as it does the job)
-- [ ] Demonstrate use of different opts + lr schedulers
+- [ ] Demonstrate use of different opts, cbs esp. lr schedulers
 
 ### Part 2
 - [ ] Same task, limited to scikit-learn: Which model to choose + why? Implement code that creates the model, train on data from TFDS ... (the part that fits into RAM) + evaluate.
