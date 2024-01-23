@@ -36,7 +36,7 @@ If you have any questions, please contact <ContactAtCendas>
 
 - Assume: supporting libraries are allowed (e.g. PyTorch vision, datasets, numpy, ...)
 - Assume: For task 2, the model creation: "code that creates this model" - possibly from scratch? Clarify, assume or write both solutions (from scratch + imported if exists)
-- Assume: MPS counts as GPU support (task 3); better to write form most common training case on Nvidia GPUs
+- Assume: MPS counts as GPU support (task 3); better to write in a form that works for most cases (check for GPU(s), CPU fallback)
 - Assume: For part 3 the step-by-step guide is limited to one architecture (most common: Nvidia GPU)
 
 # List of TODOs
