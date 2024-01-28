@@ -51,9 +51,6 @@ If you have any questions, please contact <ContactAtCendas>
 - [ ] Same task, limited to scikit-learn: Which model to choose + why? Implement code that creates the model, train on data from TFDS ... (the part that fits into RAM) + evaluate.
 
 ### Part 3
-- [ ] short-list top 3 approaches publicly available on GitHub; include key metric comparison on common datasets
-- [ ] select best of 3 (+ document decision), install + run locally with GPU support
-- [ ] document (step-by-step guide) for person following assessment may follow & run on their end
-
-### Possible addition
-- [ ] Gradio interface
+- [x] short-list top 3 approaches publicly available on GitHub; include key metric comparison on common datasets
+- [x] select best of 3 (+ document decision), install + run locally with GPU support
+- [x] document (step-by-step guide) for person following assessment may follow & run on their end
