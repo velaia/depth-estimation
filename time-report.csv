@@ -1,0 +1,30 @@
+Date,Project,Notes,Hours
+2024-01-23,Current Project,"CENDAS mini-assessment (reading, understanding, repo creation + README)
+Investigating NYU Depth, convenient sources (e.g. via Python lib, kaggle, HF)
+Setup environment (libs, Jupyter, …)
+Jupyter notebook, dataset download
+scikit-learn investigation during download","2,26"
+2024-01-24,Current Project,"Part 2 beginning
+Part 1 continued; use of pretrained Midas arch","4,08"
+2024-01-25,Current Project,HuggingFace GLPN training; preprocessing the data etc.,"2,49"
+2024-01-26,Current Project,"Continue getting 🤗 to train
+Taking quick look at recently published Depth Anything + HF space
+GELU not working in PyTorch MPS, maybe switch to Colab
+Considering a startover and checking what I did wrong, options for the startover.
+I want to make use of the (downloaded) dataset in HF, maybe adapt a GitHub repo with a simple (old or mobile) arch to (latest) PyTorch and take it from there with the 🤗 dataset
+
+Switched to task 3 because it’s somehow the most clear task.","5,75"
+2024-01-27,Current Project,"Part 3 EVP continued (incl. Depth Anything)
+Part 1, Lightning AI for model","3,58"
+2024-01-28,Current Project,"Testing Depth Anything on own video
+Repo clean-up
+Part I using PyTorch, Lightning, optims, lr-scheduler etc","5,81"
+2024-01-29,Current Project,"Data preprocessing for training
+working with new version torchvision.transforms.v2 
+finishing up part 1, tests on Colab, clarifications of task fulfillment
+
+preview scikit-learn “neural_networks_supervised”; scikit-image?","4,39"
+2024-01-30,Current Project,"finishing up part I
+part II implementation (search what components scikit-learn brings, implement the remainder, see how far you get)
+finishing up assessment, check time log + save a report in the repo; revise README.md
+inform Alex + Klari","5,35"
