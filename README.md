@@ -12,7 +12,7 @@ Here you will find, as discussed, the mini-task.
 
 The deadline is the end of the 7th days (including the weekend) after receiving this mini-task. So if you received it on Monday, the deadline is next Monday, end of day.
 
-Please create a private GitHub repository and share it with https://github.com/ZinelisCendas.
+Please create a private GitHub repository and share it with <REPRESENTATIVE@COMPANY>.
 
 It should include:
 
@@ -34,14 +34,21 @@ If you have any questions, please contact <ContactAtCendas>
 
 # Assumptions or clarifications
 
-- Assume: supporting libraries are allowed (e.g. PyTorch vision, datasets, numpy, ...)
-- Assume: For task 2, the model creation: "code that creates this model" - possibly from scratch? Clarify, assume or write both solutions (from scratch + imported if exists)
-- Assume: MPS counts as GPU support (task 3); better to write in a form that works for most cases (check for GPU(s), CPU fallback)
-- Assume: For part 3 the step-by-step guide is limited to one architecture (most common: Nvidia GPU)
+The tasks were often open to interpretation or somewhat vague. As this is an assessment I decided to make my own assumptions instead of following up and costing busy valuable time 😉
+
+The training for part 1 happened on my M1 MacBook Pro - if I had actually wanted to train a high-performing (production) network I would have performed it on a Nvidia GPU, TPU or some other hardware-accelerated system. The notebook should run on any other hardware (with automated acceleration depending on the system thanks to PyTorch Lightning) where the right acceleration libraries are present (e.g. CUDA).
+
+For part 1 I shifted my approach after some time due to glitches with the MPS version of a library and realizing that I had chosen a rather sophisticated network (GLPN) counter to the instructions in the task ("not be sophisticated or very complex"). I also wasn't sure about the "implement" instruction: code a whole network incl. architecture from scratch, ready-made from a library or something in between. So I decided to go with a PyTorch Lightning + 🤗 HuggingFace datasets mixed implementation and also tested some of the supposedly high-performing v2 transforms from the PyTorch library.
+
+For part 3 I had found a "Depth Estimation" Papers with Code leaderboard but later came upon the Depth Anything model (barely a week old) in my X feed and decided to update the notebook. Then I found that there was an even better Papers with Code leaderboard ("Monocular Depth Estimation") and made the according adjustments to reflect the state-of-the-art from there.
+
+I've included resources and helpful links in the notebook markdown cells where I thought it would help the understanding of the reader.
+
+If anything is unclear please don't hesitate to contact me.
 
 # List of TODOs
-- [ ] All material to complete task is included
-- [ ] Time/work log for completion is included
+- [x] Anything that is related to the answer of the task
+- [x] Time/work log for completion is included
 
 ### Part 1
 - [x] Model + training & eval script on NYU Depth V2 - arch as tiny as possible (as long as it does the job)
