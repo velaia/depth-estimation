@@ -12,7 +12,7 @@ Here you will find, as discussed, the mini-task.
 
 The deadline is the end of the 7th days (including the weekend) after receiving this mini-task. So if you received it on Monday, the deadline is next Monday, end of day.
 
-Please create a private GitHub repository and share it with https://github.com/ZinelisCendas.
+Please create a private GitHub repository and share it with <REPRESENTATIVE@COMPANY>.
 
 It should include:
 
