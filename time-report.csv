@@ -1,5 +1,5 @@
 Date,Project,Notes,Hours
-2024-01-23,Current Project,"CENDAS mini-assessment (reading, understanding, repo creation + README)
+2024-01-23,Current Project,"COMPANY mini-assessment (reading, understanding, repo creation + README)
 Investigating NYU Depth, convenient sources (e.g. via Python lib, kaggle, HF)
 Setup environment (libs, Jupyter, …)
 Jupyter notebook, dataset download
@@ -27,4 +27,4 @@ preview scikit-learn “neural_networks_supervised”; scikit-image?","4,39"
 2024-01-30,Current Project,"finishing up part I
 part II implementation (search what components scikit-learn brings, implement the remainder, see how far you get)
 finishing up assessment, check time log + save a report in the repo; revise README.md
-inform Alex + Klari","5,35"
+inform Alice + Bob","5,35"
